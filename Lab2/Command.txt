@@ -1,0 +1,1 @@
+schtasks /create /tn "LabBatchScript" /tr "\"C:\LabWork\lab.cmd\" lab.log C:\LabWork\Data notepad.exe C:\LabWork\Archive 198.66.8.5 500" /sc DAILY /st 12:00 /rl HIGHEST /f
